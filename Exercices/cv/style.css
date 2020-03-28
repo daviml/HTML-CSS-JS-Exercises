@@ -1,0 +1,26 @@
+body{
+    background: blue;
+}
+section{
+    background: rgb(250, 248, 237);
+    margin: auto;
+    padding: 30px;
+    width: 615px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
+    
+}
+h1{
+    font-weight: bolder;
+}
+.red{
+    color: red;
+}
+
+table#table01{
+    text-align: justify;
+    
+}
+th#th01{
+    color: red;
+}
