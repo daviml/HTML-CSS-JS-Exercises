@@ -1,6 +1,19 @@
 body{
     font-family: Montserract;
 }
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+h2{
+    font-size: 4rem;
+    
+}
+p{
+    color:#8f8f8f;
+}
+
+/* Title */
 #title{
     background-color: #ff4c68;
     color: white;
@@ -20,16 +33,11 @@ body{
 .download-btn{
     margin: 10% 5% 5% 0;
 }
+
+/* Features */
 #features{
     padding: 10% 15%;
     text-align: center;
-}
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
-p{
-    color:#8f8f8f;
 }
 .icon{
     font-size:48px;
@@ -38,4 +46,30 @@ p{
 }
 .icon:hover{
     color: brown;
+}
+
+/* Testemonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.press-logo{
+    width: 300px;
+    padding: 50px;
+}
+.carousel-item{
+    padding: 10% 15%;
+
 }
