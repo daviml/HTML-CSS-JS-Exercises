@@ -33,11 +33,19 @@ p{
 .download-btn{
     margin: 10% 5% 5% 0;
 }
-
+.title-img{
+    transform: rotate(25deg);
+    width:80%;
+    
+    position: absolute;
+}
 /* Features */
 #features{
     padding: 10% 15%;
     text-align: center;
+    background-color: white;
+    position: relative;
+    
 }
 .icon{
     font-size:48px;
@@ -72,4 +80,65 @@ p{
 .carousel-item{
     padding: 10% 15%;
 
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pri-col{
+    padding: 3% 2%;
+    
+}
+.h2-pri{
+    font-weight: bolder;
+    padding: 3%;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 30%;
+        
+    }
+    
+}
+.h1-title{
+    font-weight: bolder; 
+    color: white; 
+    font-family: Monserract-black; 
+    font-size: 4rem; 
+    line-height: 1.5;
+}
+
+/* CTA */
+#cta{
+    background: linear-gradient(#ff4c68,#ff4c68);
+    text-align: center;
+    padding: 10%;
+    color: white;
+    font-weight: bolder;
+}
+.btn-cta{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+#footer{
+    background-color: #fff;
+    text-align: center;
+    
+    padding:8%;
+    
+}
+.fot-ico{
+    padding: 2% 1%;
+    font-size: 1.2rem;
 }
