@@ -39,6 +39,7 @@ p{
     
     position: absolute;
 }
+
 /* Features */
 #features{
     padding: 10% 15%;
@@ -96,19 +97,6 @@ p{
     font-weight: bolder;
     padding: 3%;
 }
-
-@media (max-width:1028px){
-    #title{
-        text-align: center;
-    }
-    .title-img{
-        position: static;
-        transform: rotate(0);
-        width: 30%;
-        
-    }
-    
-}
 .h1-title{
     font-weight: bolder; 
     color: white; 
@@ -141,4 +129,19 @@ p{
 .fot-ico{
     padding: 2% 1%;
     font-size: 1.2rem;
+}
+.icon-footer:hover{
+    color: #ff4c68;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 30%;
+        
+    }
 }
