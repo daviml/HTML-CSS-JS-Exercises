@@ -15,6 +15,10 @@ $("h1").on("mouseover", function(){
     $("h1").css("color","black")
 })
 
-$("h1").before("<button>NEW</button>")
+$("button").on("click",function(){
+    $("h1").slideToggle().animate({opacity: 0.5})
+})
 
-$("h1").after("<button>NEW</button>")
+
+
+
