@@ -1,3 +1,5 @@
-const fs = require("fs")
+var superheroes = require("superheroes")
 
-fs.copyFileSync("file1.txt", "file2.txt")
+var mySup = superheroes.random()
+
+console.log(mySup)
