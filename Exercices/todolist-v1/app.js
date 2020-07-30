@@ -1,13 +1,3 @@
-calculator.js
-
-npm init
-
-npm install express
-
-npm intall body-parser
-
-//**//**CODE**//**//app.js//**//
-
 var express = require("express");
 var bodyParser = require("body-parser");
 
